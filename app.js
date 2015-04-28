@@ -17,7 +17,7 @@ app.use(express.static(__dirname + '/public'));
 var port = process.env.PORT || 8080; // set our port
 
 var client = twilio('ACd9fc56c9a143f99aebe5d3d796978392', '99e37e9c244d492ad1f756c5bbd4fdac');
-var twilio_number = '+1(940)202-8305';
+var twilio_number = '+18589144771';
 
 var api_key = "c9e3d61b-d9a2-4404-8936-add318ab1fb5";
 var appname = "chatapp";
